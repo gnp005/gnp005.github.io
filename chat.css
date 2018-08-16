@@ -1,0 +1,97 @@
+:root{
+  font-size: 16px;
+}
+
+#chat-sec{
+  min-height: 100%;
+  box-sizing: border-box;
+  padding: 0;
+
+}
+
+#user-box{
+  height: 100%;
+  box-sizing: content-box;
+  padding: 0;
+  box-shadow:  0px 0px 5px 2px grey;
+  background: rgb(238, 238, 238);
+}
+
+#profile-header{
+  padding: 0.2rem;
+  background: rgba(0, 177, 106,0.65);
+  box-shadow:  0px 0px 10px 1px rgb(210, 215, 211);
+}
+
+#profile-pic{
+  max-width: 3rem;
+  border-radius: 50%;
+}
+
+.icon-list i{
+  padding-top: 1rem;
+}
+
+.search-box{
+  box-sizing: border-box;
+  padding: 0.5rem;
+  background-color: rgb(255,255,255);
+}
+
+.search-box input{
+  background: rgba(210, 215, 211,0.2);
+}
+
+.contact{
+  border-bottom: 0.04rem solid grey;
+}
+
+.contact p{
+  margin: 0;
+  font-style: italic;
+}
+
+.contact-container a{
+  text-decoration: none;
+}
+
+#contact-info h4{
+  margin-bottom: 0.1rem;
+  color: rgb(255,255,255)
+}
+
+#contact-info p{
+  margin: 0;
+  font-style: italic;
+}
+
+
+.sent{
+  border:0.1rem solid grey;
+  border-radius: 2rem;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px 1px grey;
+}
+
+.sent p{
+  font-size: 1rem;
+  margin: 0.7rem;
+}
+
+.recieved{
+  border:0.1rem solid grey;
+  border-radius: 2rem;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px 1px grey;
+}
+
+.recieved p{
+  font-size:1rem;
+  margin: 0.7rem;
+}
+#message-board{
+  min-height: 78vh;
+}
+footer .search-box input{
+  border-radius: 5rem;
+}

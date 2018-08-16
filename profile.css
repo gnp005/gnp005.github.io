@@ -1,0 +1,61 @@
+:root{
+  font-size: 16px;
+}
+
+#user-box{
+  height: 100%;
+  box-sizing: content-box;
+  padding: 0;
+  box-shadow:  0px 0px 5px 2px grey;
+  background: rgb(238, 238, 238);
+}
+
+
+#edit-profile{
+  box-sizing: border-box;
+}
+
+#profile-pic{
+  height: 40vh;
+}
+#profile-pic img{
+  max-width: 10rem;
+  border-radius: 50%;
+  transform: translate(70%,25%);
+}
+
+#name-section{
+  box-sizing: border-box;
+  box-shadow: -1px 3px 5px 1px grey;
+}
+
+#name-section h4{
+  padding: 0.2rem;
+  font-size: 1.5rem;
+  color: rgb(38, 166, 91)
+}
+
+#name-section p{
+  padding: 0.1rem;
+  font-size: 1rem;
+}
+
+#auto-message{
+  padding: 0.1rem;
+  font-size: 0.8rem;
+}
+
+#about-section{
+  box-sizing: border-box;
+  box-shadow: -1px 3px 5px 1px grey;
+}
+#heading h2{
+  padding: 0.5rem;
+  color: White;
+}
+
+#chat-sec{
+  padding: 0;
+  min-height: 100%;
+  background-image: url('bg-home.png');
+}
